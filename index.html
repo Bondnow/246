@@ -22,9 +22,17 @@
 
 /* Create three equal columns that floats next to each other */
 .column {
-  
+ 
+h1 {text-align: center;}
+h2{text-align: center;}
+h3{text-align: center;}
+h4{text-align: center;}
 
-float: left;
+ p {text-align: center;} 
+ div {text-align: left;} 
+
+
+ float: left;
   width: 33.33%;
 background-repeat: no-repeat;
  
@@ -34,8 +42,8 @@ background-repeat: no-repeat;
 
   border: 3px solid BLUE;
 
- padding: 10px;
-  height:100px; /* Should be removed. Only for demonstration */
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -50,9 +58,60 @@ background-repeat: no-repeat;
   .column {
     width: 100%;
   }
+
+ SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+    <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+
 }
 
- <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->
+
+.Sdropbtn {
+  background-color: rgba(255,255,255,0);
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.Sdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Sdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #006666;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Sdropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.Sdropdown-content a:hover {background-color: #ddd; ;color: black;
+  border: 2px solid red;}
+
+ 
+
+.Sdropdown:hover .Sdropdown-content {
+  display: block;
+}
+
+.Sdropdown:hover .Sdropbtn {
+  background-color: rgb(186,164,188);
+}
+
+<!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+    <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+<!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+    <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
 
 header {
 position: relative;
@@ -321,30 +380,94 @@ footer {
 
 
 
+<!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+    <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+<!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+    <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+
 <div class="row">
-  <div class="column" style="background-color:RED;"><marquee width="100%" direction="up" height="100%"scrollamount="2"> 
-<h2 style="text-align:center;color: white;">
-    
-DEXTER'S Sports Bar
-<br><br>Deacons Road 
-<br><br>St. Michael.<br><br>Whatsapp: 
+  <div class="column" style="background-color:rgb(3,118,160);">
+   <div class="Sdropdown">
+  <button class="Sdropbtn">
 
- </marquee></h2>
-    
+<marquee  width="400px"  height="85px"  direction="up"scrollamount="2">
+
+<h1 style="color: yellow;background-color: black; font-size: 100 px; font-family:rockwell ;padding: 12px 16px;">
+ DEXTER'S Sports Bar</h1>
+ 
+ 
+ 
+
+<h3 style="color: pink;; font-size: 100 px; font-family:rockwell ;padding: 12px 16px;">
+Two Locations</h3>
+
+
+<h2>
+Deacons Road, St. Michael.
+<br>&
+<br>Maxwell Main Road,
+<br>Christ Church,
+<br>Barbados.</h2>
+
+ 
+
+  <p style="color: yellow;; font-size: 100 px; font-family:italict ;padding: 12px 16px;"><b>"Click" to "Contact Us"</b></p> 
+
+<h2>
+OFFERS:</h2>
+
+
+<h3 style="color: pink;; font-size: 100 px; font-family:rockwell ;padding: 2px 2px;">
+Wines
+<br> Hard Liquor
+<br> Food
+<br>  Parties
+<br> Wholesale
+
+
+</h3>
+
+
+</marquee>
+
+
+</button>
+  <div class="Sdropdown-content">
+  <a href="tel:12464256472" target="_blank">
+          <img src="HEADERpic/red-phone.png" width="20px">Call:(246)4256472 </a>
+          
+     <a href="https://wa.me/12462372602?text=%20%20%20%20%20Hi," target="_blank"> <img src="HEADERpic/whatapps.png" width="20px"> Whatsapp:(246)2523094</a>
+     
+      <a href="mailto:dexterbr@yahoo.com" target="_blank"><img src="HEADERpic/Email.png" width="28">
+Email:dexterbr@yahoo.com</a>
+
+
+<a href="https://www.google.com/search?q=dexters+sports+bar+deacons+road&rlz=1C1CHBF
+_enBB1032BB1032&oq=dexters+sports+bar+deacons+road&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQI
+RigATIHCAIQIRiPAtIBCTg2NDcyajFqN6gCCLACAfEF6Dtn4fxV9sk&so
+urceid=chrome&ie=UTF-8&sei=N0vlZ_L0EOLfkvQP45DriAE"> 
+ Goggle</a>
+
+
+
   </div>
-
-
- <div class="column" style="background-align:center; background-image: url('Adverts/DexterBar.GIF" float:right; width="100%";height"auto"');">
+</div>
+  </div>
+ 
+<!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+   <div class="column" style="background-align:center; background-image: url('Adverts/DexterBar.GIF" float:right; width="100%";height"auto"');">
 
    
   </div>
 
-
-  <div class="column" style="background-color:rgb(63,255,0);"><marquee width="100%" direction="LEFT" height="100%"scrollamount="5"> 
+<!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+   
+<div class="column" style="background-color:rgb(63,255,0);"><marquee width="100%" direction="LEFT" height="100%"scrollamount="5"> 
     <h2 style="text-align:center;color: BLACK;">    
 
-All are welcome to our safe and secure  Indoor /Outdoor facility where you can relax and enjoy the true ambience of the area.
- Friday nights Karaoke starts at 8:00pm.</p>
+<a style="color: yellow;background-color: black; font-size: 100 px; font-family:rockwell ;padding: 12px 16px;">
+ DEXTER'S Sports Bar</a>  All are welcome to our safe and secure  Indoor /Outdoor facilities where you can relax and enjoy the true ambience of the area.
+ Friday nights Karaoke starts at 8:00pm.--- UP COMING:- BOMB July 13th 2025 5:00am until </p>
 
  </marquee></h2>
     
@@ -352,7 +475,9 @@ All are welcome to our safe and secure  Indoor /Outdoor facility where you can r
   </div>
 </div>
 
- <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+<!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+    <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
+<!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
     <!-- SIDE Bar  0000000000000000 TABLE body  000000000-->    <!-- SIDE Bar  0000000000000000 TABLE body  000000000--> 
 
 <h2 style="
